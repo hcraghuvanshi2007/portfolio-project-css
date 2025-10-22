@@ -1,0 +1,147 @@
+.heading1{
+    background-color: #43a0d5c6;
+    
+    line-height: 0px;
+   
+}
+#header{
+    text-align: center;
+    padding: 6px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#navbar{
+    
+    word-spacing: 20px;
+    padding: 18px;
+    text-align: center;
+}
+.link-white{
+    color: white;
+}
+#about{
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 20px;
+}
+#aboutme{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+#about img {
+    border-radius: 50%;  
+    border: 10px solid rgba(67, 160, 213, 0.776);
+    margin-bottom: 15px;
+    object-fit: cover; 
+    aspect-ratio: 1;  
+}
+#skills{
+     background-color: #f0f8ff;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+#myskills{
+    text-align: center;
+    font-size: 26px;
+   
+}
+#table1{
+    table-layout: fixed;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-color: rgba(103, 177, 241, 0.872);
+    
+}
+#table1 th{
+    background-color: #43a0d5c6;
+    color: rgb(255, 255, 255);
+}
+#table1 td{
+    border: 1px solid rgba(103, 177, 241, 0.872);
+    background-color: #f2f8fc;
+}
+#projects{
+    background-color: #f0f8ff;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#myprojects{
+    text-align: center;
+    font-size: 26px;
+    
+}
+#text{
+    color: rgb(212, 109, 167);
+    position: relative;
+    left: 50px;
+    font-size: 14px;
+    font-family: cursive;
+}
+.project-item{
+    align-items: center;
+    text-align: center;
+    
+}
+.text2{
+    color: rgb(109, 202, 212);
+    text-align: center;
+    font-size: 17px;
+    font-family: arial;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #43a0d5c6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: arial;
+    
+}
+
+.back-to-top:hover {
+    background-color: #2980b9;
+}
+#contact{
+    background-color: #f0f8ff;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 20px;
+}
+#contact_heading{
+    text-align: center;
+    font-size: 26px;
+}
+form{
+    text-align: center;
+    font-size: 18px;
+}
+#contact_table{
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgba(103, 177, 241, 0.872);
+    table-layout: fixed;
+    width: 40%;
+    
+}
+#submit_button{
+    background-color: #43a0d5c6;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

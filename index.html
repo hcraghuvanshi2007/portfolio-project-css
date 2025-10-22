@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Portfolio Project</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+    <div>
+        <header class="heading1" id="header"><h1>My Portfolio</h1></header>
+        <nav class="heading1" id="navbar">
+           
+            <a href="#about" class="link-white">About</a>
+            <a href="#skills" class="link-white">Skills</a>
+            <a href="#projects" class="link-white">Projects</a>
+            <a href="#contact" class="link-white">Contact</a>
+        </nav>
+    
+    </div>
+    
+
+
+    <main id="main">
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 id="aboutme"> About Me</h2>
+            <img src="image-6.png" alt="My Profile Picture" width="200">
+            <br>
+            <p>Hello! Myself Himanchal Raghuvanshi and I am a B.Tech CSE (Data Science) student. I enjoy learning coding, working on projects, and exploring how data can solve real-world problems.</p>
+
+        </section>
+<hr color="grey">
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 id="myskills">My Skills</h2>
+            <table id="table1" border="1"  cellpadding="8">
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Professional</td>
+                </tr>
+            </table>
+        </section>
+
+<hr color="grey">
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 id="myprojects">My Projects</h2>
+            <p id="text"> --> Here are some of the projects I have worked on :</p>
+            <div id="images">
+                <div class="project-item">
+                    <img src="image-11.jpg" alt="Project Image" width="300" height="200">
+                    <h3 class="projectt">Project 1</h3>
+                    <p class="text2">This is a project based on Data Science</p>
+                </div>
+
+                <div class="project-item">
+                    <img src="image-12.png" alt="Project Image 2" width="300" height="200">
+                    <h3 class="projectt">Project 2</h3>
+                    <p class="text2">This is a project based on Java</p>
+                </div>
+
+                <div class="project-item">
+                    <img src="image-13.png" alt="Project Image 3" width="300" height="200">
+                    <h3 class="projectt">Project 3</h3>
+                    <p class="text2">This is a project based on MySQL</p>
+                </div>
+            </div>
+           
+        </section>
+
+<hr color="grey">
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 id="contact_heading">Contact Me</h2>
+             <table id="contact_table" border="1"  cellpadding="8">
+                <tr>
+                    <td> <form><label for="name">Name:</label></form></td>
+                    <td> <input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td> <form><label for="email">Email:</label></form></td>
+                    <td> <input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+                </tr>
+                <tr>
+                    <td> <form><label for="message">Message:</label></form></td>
+                    <td> <textarea id="message" name="message" placeholder="Write your message here" required></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <form>
+                            <input type="submit" id="submit_button" value="Send">
+                        </form>
+                    </td>
+                </tr>
+            </table>    
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">↑ Back to Top</a>
+
+	</body>
+</html>
